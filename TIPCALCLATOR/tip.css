@@ -1,0 +1,8 @@
+form label {
+    display: grid;
+    flex-direction: column;
+}
+body {
+    color: blue;
+
+}

@@ -23,6 +23,6 @@ function CalculateTip(){
     const tip = dollars * (percent / 100)
     const total = tip + dollars
     const finaltotal = total/Pearsons
-    OTIP.innerHTML = tip
-    OTTL.innerHTML = finaltotal
+    OTIP.innerHTML = `$${tip.toFixed(2)}`
+    OTTL.innerHTML = `$${finaltotal.toFixed(2)}`
 }
